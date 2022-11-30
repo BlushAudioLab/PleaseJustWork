@@ -1,13 +1,13 @@
 # ninja log v5
-6	61	0	/Users/blushaudiodev/Programming/PleaseJustWork/build/JUCE/tools/CMakeFiles/cmake.verify_globs	a8dba665ff9a658d
-85	163	1669830624564309496	modules/juce_audio_plugin_client/CMakeFiles/juce_lv2_helper.dir/LV2/juce_LV2TurtleDumpProgram.cpp.o	40ae135cb906f08d
-86	3844	1669830628229143748	extras/Build/juceaide/CMakeFiles/juceaide.dir/__/__/__/modules/juce_events/juce_events.mm.o	f2188c62a63fd3ea
-86	7453	1669830631827253422	extras/Build/juceaide/CMakeFiles/juceaide.dir/__/__/__/modules/juce_core/juce_core.mm.o	8f6568c8680fa843
-85	3175	1669830627557192401	extras/Build/juceaide/CMakeFiles/juceaide.dir/__/juce_build_tools/juce_build_tools.cpp.o	157eeda2eca5658f
-163	250	1669830624652393035	modules/juce_audio_plugin_client/juce_lv2_helper	fa1c21392a6bcd73
-86	7577	1669830631955506101	extras/Build/juceaide/CMakeFiles/juceaide.dir/__/__/__/modules/juce_graphics/juce_graphics.mm.o	a7a1e4a16cf02324
-85	3263	1669830627649931235	extras/Build/juceaide/CMakeFiles/juceaide.dir/Main.cpp.o	c6294e7857560e47
-86	2166	1669830626560068245	extras/Build/juceaide/CMakeFiles/juceaide.dir/__/__/__/modules/juce_data_structures/juce_data_structures.mm.o	72468a28b0b07c2e
-85	19745	1669830644086206814	extras/Build/juceaide/CMakeFiles/juceaide.dir/__/__/__/modules/juce_gui_basics/juce_gui_basics.mm.o	fd59d95e702cfa18
 19747	20675	1669830645074673855	extras/Build/juceaide/juceaide_artefacts/Debug/juceaide	613a55e086ec94d
+85	19745	1669830644086206814	extras/Build/juceaide/CMakeFiles/juceaide.dir/__/__/__/modules/juce_gui_basics/juce_gui_basics.mm.o	fd59d95e702cfa18
+86	2166	1669830626560068245	extras/Build/juceaide/CMakeFiles/juceaide.dir/__/__/__/modules/juce_data_structures/juce_data_structures.mm.o	72468a28b0b07c2e
+85	3263	1669830627649931235	extras/Build/juceaide/CMakeFiles/juceaide.dir/Main.cpp.o	c6294e7857560e47
+86	7577	1669830631955506101	extras/Build/juceaide/CMakeFiles/juceaide.dir/__/__/__/modules/juce_graphics/juce_graphics.mm.o	a7a1e4a16cf02324
+163	250	1669830624652393035	modules/juce_audio_plugin_client/juce_lv2_helper	fa1c21392a6bcd73
+85	3175	1669830627557192401	extras/Build/juceaide/CMakeFiles/juceaide.dir/__/juce_build_tools/juce_build_tools.cpp.o	157eeda2eca5658f
+86	7453	1669830631827253422	extras/Build/juceaide/CMakeFiles/juceaide.dir/__/__/__/modules/juce_core/juce_core.mm.o	8f6568c8680fa843
+86	3844	1669830628229143748	extras/Build/juceaide/CMakeFiles/juceaide.dir/__/__/__/modules/juce_events/juce_events.mm.o	f2188c62a63fd3ea
+85	163	1669830624564309496	modules/juce_audio_plugin_client/CMakeFiles/juce_lv2_helper.dir/LV2/juce_LV2TurtleDumpProgram.cpp.o	40ae135cb906f08d
 7	61	0	/Users/blushaudiodev/Programming/PleaseJustWork/build/JUCE/tools/CMakeFiles/cmake.verify_globs	a8dba665ff9a658d
+10	89	0	/Users/blushaudiodev/Programming/PleaseJustWork/build/JUCE/tools/CMakeFiles/cmake.verify_globs	a8dba665ff9a658d
