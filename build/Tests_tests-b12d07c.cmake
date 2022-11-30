@@ -1,0 +1,5 @@
+add_test( [==[one is equal to one]==] /Users/blushaudiodev/Programming/PleaseJustWork/build/Tests [==[one is equal to one]==]  )
+set_tests_properties( [==[one is equal to one]==] PROPERTIES WORKING_DIRECTORY /Users/blushaudiodev/Programming/PleaseJustWork/build)
+add_test( [==[Plugin instance name]==] /Users/blushaudiodev/Programming/PleaseJustWork/build/Tests [==[Plugin instance name]==]  )
+set_tests_properties( [==[Plugin instance name]==] PROPERTIES WORKING_DIRECTORY /Users/blushaudiodev/Programming/PleaseJustWork/build)
+set( Tests_TESTS [==[one is equal to one]==] [==[Plugin instance name]==])

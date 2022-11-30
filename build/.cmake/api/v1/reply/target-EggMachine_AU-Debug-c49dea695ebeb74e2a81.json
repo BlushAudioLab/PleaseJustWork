@@ -1,0 +1,864 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "EggMachine_artefacts/Debug/AU/EggMachine.component/Contents/MacOS/EggMachine"
+		}
+	],
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"_juce_link_plugin_wrapper",
+			"_juce_configure_plugin_targets",
+			"juce_add_plugin",
+			"target_link_libraries",
+			"_juce_link_frameworks",
+			"juce_add_module",
+			"juce_add_modules",
+			"target_include_directories",
+			"target_sources",
+			"_juce_configure_bundle",
+			"_juce_add_au_resource_fork"
+		],
+		"files" : 
+		[
+			"JUCE/extras/Build/CMake/JUCEUtils.cmake",
+			"CMakeLists.txt",
+			"JUCE/extras/Build/CMake/JUCEModuleSupport.cmake",
+			"JUCE/modules/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 44,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 1806,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 1261,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1078,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 1091,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 118,
+				"parent" : 0
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 24,
+				"parent" : 7
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 654,
+				"parent" : 8
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 581,
+				"parent" : 9
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 304,
+				"parent" : 10
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 581,
+				"parent" : 9
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 304,
+				"parent" : 12
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 1088,
+				"parent" : 3
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 1120,
+				"parent" : 3
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 668,
+				"parent" : 15
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 1275,
+				"parent" : 2
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 179,
+				"parent" : 17
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -mmacosx-version-min=12.6 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-g"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-O0"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wshadow-all"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wshorten-64-to-32"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wstrict-aliasing"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wuninitialized"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wunused-parameter"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wconversion"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wsign-compare"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wint-conversion"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wconditional-uninitialized"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wconstant-conversion"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wsign-conversion"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wbool-conversion"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wextra-semi"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wunreachable-code"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wcast-align"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wshift-sign-overflow"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wmissing-prototypes"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wnullable-to-nonnull-conversion"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wno-ignored-qualifiers"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wswitch-enum"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wpedantic"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wdeprecated"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wzero-as-null-pointer-constant"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wunused-private-field"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Woverloaded-virtual"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wreorder"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Winconsistent-missing-destructor-override"
+				},
+				{
+					"fragment" : "-std=gnu++14"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 5,
+					"define" : "DEBUG=1"
+				},
+				{
+					"define" : "EggMachine_AU_EXPORTS"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "JUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "JUCE_MODULE_AVAILABLE_juce_audio_basics=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "JUCE_MODULE_AVAILABLE_juce_audio_devices=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "JUCE_MODULE_AVAILABLE_juce_audio_formats=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "JUCE_MODULE_AVAILABLE_juce_audio_processors=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "JUCE_MODULE_AVAILABLE_juce_audio_utils=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "JUCE_MODULE_AVAILABLE_juce_core=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "JUCE_MODULE_AVAILABLE_juce_data_structures=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "JUCE_MODULE_AVAILABLE_juce_events=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "JUCE_MODULE_AVAILABLE_juce_graphics=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "JUCE_MODULE_AVAILABLE_juce_gui_basics=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "JUCE_MODULE_AVAILABLE_juce_gui_extra=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "JUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "JUCE_TARGET_HAS_BINARY_DATA=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "JUCE_USE_CURL=0"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "JUCE_VST3_CAN_REPLACE_VST2=0"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "JUCE_WEB_BROWSER=0"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "JucePlugin_AAXCategory=0"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "JucePlugin_AAXDisableBypass=0"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "JucePlugin_AAXDisableMultiMono=0"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "JucePlugin_AAXIdentifier=com.blushaudio.EggMachine"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "JucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "JucePlugin_AAXProductId=JucePlugin_PluginCode"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "JucePlugin_ARACompatibleArchiveIDs=\"\""
+				},
+				{
+					"backtrace" : 5,
+					"define" : "JucePlugin_ARAContentTypes=0"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "JucePlugin_ARADocumentArchiveID=\"com.blushaudio.EggMachine.aradocumentarchive.1\""
+				},
+				{
+					"backtrace" : 5,
+					"define" : "JucePlugin_ARAFactoryID=\"com.blushaudio.EggMachine.arafactory.0.0.1\""
+				},
+				{
+					"backtrace" : 5,
+					"define" : "JucePlugin_ARATransformationFlags=0"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "JucePlugin_AUExportPrefix=EggMachineAU"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "JucePlugin_AUExportPrefixQuoted=\"EggMachineAU\""
+				},
+				{
+					"backtrace" : 5,
+					"define" : "JucePlugin_AUMainType='aufx'"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "JucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "JucePlugin_AUSubType=JucePlugin_PluginCode"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "JucePlugin_Build_AAX=0"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "JucePlugin_Build_AU=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "JucePlugin_Build_AUv3=0"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "JucePlugin_Build_LV2=0"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "JucePlugin_Build_Standalone=0"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "JucePlugin_Build_Unity=0"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "JucePlugin_Build_VST3=0"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "JucePlugin_Build_VST=0"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "JucePlugin_CFBundleIdentifier=com.blushaudio.EggMachine"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "JucePlugin_Desc=\"EggMachine\""
+				},
+				{
+					"backtrace" : 5,
+					"define" : "JucePlugin_EditorRequiresKeyboardFocus=0"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "JucePlugin_Enable_ARA=0"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "JucePlugin_IsMidiEffect=0"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "JucePlugin_IsSynth=0"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "JucePlugin_Manufacturer=\"BlushAudio\""
+				},
+				{
+					"backtrace" : 5,
+					"define" : "JucePlugin_ManufacturerCode=0x50616d70"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "JucePlugin_ManufacturerEmail=\"\""
+				},
+				{
+					"backtrace" : 5,
+					"define" : "JucePlugin_ManufacturerWebsite=\"\""
+				},
+				{
+					"backtrace" : 5,
+					"define" : "JucePlugin_Name=\"EggMachine\""
+				},
+				{
+					"backtrace" : 5,
+					"define" : "JucePlugin_PluginCode=0x50303031"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "JucePlugin_ProducesMidiOutput=0"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "JucePlugin_VSTCategory=kPlugCategEffect"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "JucePlugin_VSTNumMidiInputs=16"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "JucePlugin_VSTNumMidiOutputs=16"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "JucePlugin_VSTUniqueID=JucePlugin_PluginCode"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "JucePlugin_Version=0.0.1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "JucePlugin_VersionCode=0x1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "JucePlugin_VersionString=\"0.0.1\""
+				},
+				{
+					"backtrace" : 5,
+					"define" : "JucePlugin_Vst3Category=\"Fx\""
+				},
+				{
+					"backtrace" : 5,
+					"define" : "JucePlugin_WantsMidiInput=0"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "_DEBUG=1"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 14,
+					"path" : "/Users/blushaudiodev/Programming/PleaseJustWork/build/EggMachine_artefacts/JuceLibraryCode"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/Users/blushaudiodev/Programming/PleaseJustWork/build/juce_binarydata_Assets/JuceLibraryCode"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/Users/blushaudiodev/Programming/PleaseJustWork/JUCE/modules"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/Users/blushaudiodev/Programming/PleaseJustWork/JUCE/modules/juce_audio_processors/format_types/VST3_SDK"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/Users/blushaudiodev/Programming/PleaseJustWork/JUCE/modules/juce_audio_processors/format_types/LV2_SDK"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/Users/blushaudiodev/Programming/PleaseJustWork/JUCE/modules/juce_audio_processors/format_types/LV2_SDK/lv2"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/Users/blushaudiodev/Programming/PleaseJustWork/JUCE/modules/juce_audio_processors/format_types/LV2_SDK/serd"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/Users/blushaudiodev/Programming/PleaseJustWork/JUCE/modules/juce_audio_processors/format_types/LV2_SDK/sord"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/Users/blushaudiodev/Programming/PleaseJustWork/JUCE/modules/juce_audio_processors/format_types/LV2_SDK/sord/src"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/Users/blushaudiodev/Programming/PleaseJustWork/JUCE/modules/juce_audio_processors/format_types/LV2_SDK/sratom"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/Users/blushaudiodev/Programming/PleaseJustWork/JUCE/modules/juce_audio_processors/format_types/LV2_SDK/lilv"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/Users/blushaudiodev/Programming/PleaseJustWork/JUCE/modules/juce_audio_processors/format_types/LV2_SDK/lilv/src"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					5
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				12,
+				13,
+				14,
+				15,
+				16
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "Assets::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "EggMachine::@6890427a1f51a3e7e1df"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Targets"
+	},
+	"id" : "EggMachine_AU::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "EggMachine_artefacts/Debug/libEggMachine_SharedCode.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "libAssets.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Xlinker -framework -Xlinker DiscRecording",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Xlinker -framework -Xlinker WebKit",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "-weak_framework Metal",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "-weak_framework MetalKit",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Xlinker -framework -Xlinker QuartzCore",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Xlinker -framework -Xlinker CoreAudio",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Xlinker -framework -Xlinker CoreMIDI",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Xlinker -framework -Xlinker AudioToolbox",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Xlinker -framework -Xlinker Accelerate",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Xlinker -framework -Xlinker Cocoa",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Xlinker -framework -Xlinker Foundation",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Xlinker -framework -Xlinker IOKit",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Xlinker -framework -Xlinker AudioUnit",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Xlinker -framework -Xlinker CoreAudioKit",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "EggMachine_AU",
+	"nameOnDisk" : "EggMachine.component/Contents/MacOS/EggMachine",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				2,
+				3,
+				4
+			]
+		},
+		{
+			"name" : "JUCE Modules\\juce_audio_plugin_client",
+			"sourceIndexes" : 
+			[
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 16,
+			"isGenerated" : true,
+			"path" : "build/EggMachine_artefacts/JuceLibraryCode/EggMachine_AU/PkgInfo",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 18,
+			"isGenerated" : true,
+			"path" : "build/EggMachine_artefacts/JuceLibraryCode/EggMachine_AU/secret/EggMachine.rsrc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/EggMachine_artefacts/JuceLibraryCode/EggMachine_AU/PkgInfo.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/EggMachine_artefacts/JuceLibraryCode/EggMachine_AU/secret/EggMachine.rsrc.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/EggMachine_artefacts/JuceLibraryCode/EggMachine_AU/secret/JucePluginDefines.h.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.mm",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"path" : "JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU.r",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_1.mm",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_2.mm",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AUv3.mm",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.mm",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST_utils.mm",
+			"sourceGroupIndex" : 2
+		}
+	],
+	"type" : "MODULE_LIBRARY"
+}
