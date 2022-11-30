@@ -15,3 +15,13 @@ TEST_CASE("Plugin instance name", "[name]")
   CHECK_THAT(testPlugin.getName().toStdString(),
              Catch::Matchers::Equals("EggMachine"));
 }
+
+TEST_CASE("processor: BusesLayoutSupportMono", "EggMachineAudioProcessor")
+{
+    auto processor     = EggMachineAudioProcessor {};
+    auto layout        = juce::AudioProcessor::BusesLayout {};
+    layout.inputBuses  = juce::AudioChannelSet::mono();
+    layout.outputBuses = juce::AudioChannelSet::mono();
+
+    REQUIRE(processor.isBusesLayoutSupported(layout));
+}
