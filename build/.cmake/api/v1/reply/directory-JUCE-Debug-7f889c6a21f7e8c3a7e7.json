@@ -1,0 +1,83 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"JUCE/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 150,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 169,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/JUCE-7.0.2",
+			"paths" : 
+			[
+				"build/JUCE/JUCEConfigVersion.cmake",
+				"build/JUCE/JUCEConfig.cmake",
+				"JUCE/extras/Build/CMake/JUCECheckAtomic.cmake",
+				"JUCE/extras/Build/CMake/JUCEHelperTargets.cmake",
+				"JUCE/extras/Build/CMake/JUCEModuleSupport.cmake",
+				"JUCE/extras/Build/CMake/JUCEUtils.cmake",
+				"JUCE/extras/Build/CMake/JuceLV2Defines.h.in",
+				"JUCE/extras/Build/CMake/LaunchScreen.storyboard",
+				"JUCE/extras/Build/CMake/PIPAudioProcessor.cpp.in",
+				"JUCE/extras/Build/CMake/PIPAudioProcessorWithARA.cpp.in",
+				"JUCE/extras/Build/CMake/PIPComponent.cpp.in",
+				"JUCE/extras/Build/CMake/PIPConsole.cpp.in",
+				"JUCE/extras/Build/CMake/RecentFilesMenuTemplate.nib",
+				"JUCE/extras/Build/CMake/UnityPluginGUIScript.cs.in",
+				"JUCE/extras/Build/CMake/checkBundleSigning.cmake",
+				"JUCE/extras/Build/CMake/copyDir.cmake",
+				"JUCE/extras/Build/CMake/juce_runtime_arch_detection.cpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/JUCE-7.0.2",
+			"exportName" : "LV2_HELPER",
+			"exportTargets" : 
+			[
+				{
+					"id" : "juce_lv2_helper::@6b9d30882e721299dd9a",
+					"index" : 8
+				}
+			],
+			"paths" : 
+			[
+				"JUCE/CMakeFiles/Export/fc14b1eb3c06b9f111e88b7f69938ba4/LV2_HELPER.cmake"
+			],
+			"type" : "export"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "JUCE",
+		"source" : "JUCE"
+	}
+}
